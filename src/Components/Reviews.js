@@ -36,7 +36,7 @@ const Reviews = () => {
   const [base, setBase] = useState(0);
   return (
     <>
-      <h1>Our Reviews</h1>
+      <h2 style={{ margin: "7rem" }}>Our Reviews</h2>
       <div className="review">
         <img className="user" src={state.reviews[base].img} alt="img" />
         <h4>{state.reviews[base].name}</h4>
