@@ -354,3 +354,38 @@ p {
 .description {
   padding: 0rem 2.6rem;
 }
+.user {
+  width: 150px;
+  display: inline;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  image-rendering: optimizeQuality;
+  margin: auto;
+  padding: 0.25rem;
+}
+.review {
+  background: white;
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+  padding: 2.5rem;
+}
+button.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+}
+
+button.round {
+  border-radius: 50%;
+}
