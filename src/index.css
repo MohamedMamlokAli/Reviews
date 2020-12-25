@@ -367,25 +367,37 @@ p {
 .review {
   background: white;
   width: 60%;
-  height: 70%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
   width: 50%;
   padding: 2.5rem;
+  border-radius: 5%;
 }
-button.previous {
-  background-color: #f1f1f1;
-  color: black;
+.controler {
+  display: flex;
+  justify-content: space-around;
 }
-
-.next {
-  background-color: #4caf50;
-  color: white;
-  border-radius: 50%;
+.prev-btn {
+  background: white;
+  border: none;
+  color: blue;
+  outline: none;
 }
-
-button.round {
-  border-radius: 50%;
+.next-btn {
+  background: white;
+  border: none;
+  color: blue;
+  outline: none;
+}
+.surprise {
+  background: white;
+  border: none;
+  color: blue;
+  outline: none;
+}
+.review:hover {
+  box-shadow: 5px 10px #e4e2e2;
 }
